@@ -14,8 +14,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
-
+    padding: 0 54px;
+    padding-bottom: 30px;
 }
 
 .logo{
@@ -47,8 +47,12 @@ a{
     color: #f9faf8;
     display: flex;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 0 54px;
+    padding-bottom: 50px;
+}
 
+.leftalign{
+ max-width: 400px;
 }
 
 .footer{
@@ -56,5 +60,87 @@ a{
     color: #f9faf8;
     text-align: center;
     padding: 10px;
+}
+
+.container{
+    border: 1px blue solid;
+    max-height: 10px;
+    max-width: 10px;
+    justify-self: center;
+    padding: 20px 20px;
+    border-radius: 10px; 
+    color: #f9faf8;
+}
+
+.title{
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.quotes{
+    text-align: center;
+    background-color: #e5e7eb;
+    align-content: center;
+    
+}
+
+.major{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+.minor{
+    text-align: right;
+    margin: 0 32px;
+}
+
+
+.bottom{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 54px;
+}
+
+.Bloo{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    padding: 28px;
+    margin: 26px 54px;
+    border-radius: 10px;
+}
+
+.button2
+ {
+    border: 2px white solid;
+    background-color: #3882f6;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+
+.button{
+    background-color: #3882f6;
+    color: white;
+    padding:8px ;
+    border-radius: 8px;
+    width: 100px;
+    border: 0;
+}
+
+.crazy{
+    display: flex;
+    align-items: center;
+}
+
+.text1{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100px;
 }
 
